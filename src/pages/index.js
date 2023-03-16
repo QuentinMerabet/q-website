@@ -46,10 +46,33 @@ export default function Home() {
               teaching code and design has instilled in me a unique perspective
               on interactivity and user experience.
             </p>
-            <p>
-              Let's connect on Twitter, LinkedIn or Github. You can also email
-              me at{" "}
-              <a href="bonjour@quentinmerabet.com">
+            <p className="mt-3">
+              Let's connect on{" "}
+              <a
+                href="https://twitter.com/quentinmerabet"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Twitter
+              </a>
+              ,{" "}
+              <a
+                href="https://linkedin.com/in/quentinmerabet"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>{" "}
+              or{" "}
+              <a
+                href="https://github.com/quentinmerabet"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+              . You can also email me at{" "}
+              <a href="mailto:bonjour@quentinmerabet.com">
                 bonjour@quentinmerabet.com
               </a>
             </p>
