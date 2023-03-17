@@ -139,10 +139,16 @@ export default function Home() {
                   <strong>
                     Solidity, Wagmi, ethers.js, web3js, connectkit
                   </strong>{" "}
+                  lover.
+                </li>
+                <li>
+                  <strong>
+                    MongoDB, GraphQL, Parse Server, Decentralized databases
+                  </strong>{" "}
                   nerd.
                 </li>
                 <li>
-                  <strong>Figma, Adobe Suite, C4D</strong> player.
+                  <strong>Figma, Adobe Suite, C4D & AI's API </strong> player.
                 </li>
               </ul>
             </section>
