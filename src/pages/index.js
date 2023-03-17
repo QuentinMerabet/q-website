@@ -302,6 +302,19 @@ export default function Home() {
                   BscScan (Binance Smart Chain)
                 </a>
               </Project>
+              <Project title={"Heal Labs"} client={"Heal Labs"}>
+                <p className="mb-3">
+                  A minimalist puzzle-like website introducing the Code Green's
+                  innovation branch to partners.
+                </p>
+                <a
+                  href="https://www.heal-labs.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Visit
+                </a>
+              </Project>
             </div>
           </div>
         </section>
