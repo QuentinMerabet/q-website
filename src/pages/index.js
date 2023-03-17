@@ -37,7 +37,7 @@ export default function Home() {
             <h1>
               Bonjour, i’m Quentin Merabet — a French{" "}
               <span className="txtgradient">developer & designer</span> with 12+
-              years of experience creating. I love to build elegant but
+              years of experience creating. I love to build elegant yet
               disruptive products making an impact.
             </h1>
             <h4 className="mt-8">Montréal + Paris</h4>
