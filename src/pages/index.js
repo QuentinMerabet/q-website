@@ -18,11 +18,11 @@ export default function Home() {
         <meta
           name="description"
           content="Bonjour, i’m Quentin Merabet — a French developer & designer with
-          12+ years of experience creating. I love to build elegant but
+          12+ years of experience creating. I love to build elegant yet
           disruptive products making an impact."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={theme === "dark" ? "dark" : "light"}>
