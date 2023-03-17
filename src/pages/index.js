@@ -42,11 +42,16 @@ export default function Home() {
             </h1>
             <h4 className="mt-8">Montréal + Paris</h4>
             <p className="mt-3">
-              My eclectic background in art direction, directing movies, and
-              teaching code and design has instilled in me a unique perspective
-              on interactivity and user experience.
-            </p>
-            <p className="mt-3">
+              I'm highly curious, and I love exploring the world of art in all
+              its forms. When I'm not coding, you might catch me on set{" "}
+              <a
+                href="https://vimeo.com/quentinmerabet"
+                target="_blank"
+                rel="noreferrer"
+              >
+                directing commercials or music videos
+              </a>
+              .<br />
               Let's connect on{" "}
               <a
                 href="https://twitter.com/quentinmerabet"
@@ -57,7 +62,7 @@ export default function Home() {
               </a>
               ,{" "}
               <a
-                href="https://linkedin.com/in/quentinmerabet"
+                href="https://linkedin.com/in/quentin-merabet"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -71,7 +76,7 @@ export default function Home() {
               >
                 Github
               </a>
-              . You can also email me at{" "}
+              . Or you can just send me an email at{" "}
               <a href="mailto:bonjour@quentinmerabet.com">
                 bonjour@quentinmerabet.com
               </a>
@@ -167,7 +172,7 @@ export default function Home() {
         <section>
           <div className="container mx-auto">
             <h2>Projects</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12">
               <Project title={"The Zerøs"} client={"Personal"}>
                 <p className="mb-3">
                   A 3D experiment in generative art - using terrain generation,
@@ -179,6 +184,16 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   Try it
+                </a>
+                <a
+                  href={
+                    "https://q-playground.vercel.app/api/metadata/" +
+                    parseInt(10000 * Math.random())
+                  }
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check metadata API
                 </a>
               </Project>
               <Project
