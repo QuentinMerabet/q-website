@@ -15,6 +15,7 @@
     "@react-three/fiber": "8.9.1",
     "@react-three/postprocessing": "^2.7.0",
     "@react-three/rapier": "^0.14.0",
+    "@vercel/analytics": "^0.1.11",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "leva": "^0.9.34",
