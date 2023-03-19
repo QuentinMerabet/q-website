@@ -259,6 +259,20 @@ export default function Home() {
                   Website
                 </a>
               </Project>
+              <Project title={"ERC-1155PricePerSupply"} client={"Personal"}>
+                <p className="mb-3">
+                  A Solidity smart contract following ERC-1155 standard that
+                  raises the value of NFTs with every mint, which naturally
+                  restricts the supply of open edition.
+                </p>
+                <a
+                  href="https://github.com/QuentinMerabet/ERC-1155PricePerSupply"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              </Project>
               <Project
                 title={"Snapdrop"}
                 client={"Code Green + World Of Women"}
