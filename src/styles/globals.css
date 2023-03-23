@@ -105,6 +105,30 @@ ul li {
   color: var(--color-tertiary);
 }
 
+a.cta {
+  display: block;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 2em;
+  color: #010101;
+  border: 2px solid #010101;
+  font-weight: 600;
+  padding: 6px 14px;
+  width: fit-content;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+a.cta:hover {
+  background-color: #010101;
+  color: #fefefe;
+  opacity: 1;
+}
+
+a.cta:active {
+  transform: scale(0.98);
+}
+
 .tag {
   border-radius: 2em;
   border: 2px solid var(--color-primary);

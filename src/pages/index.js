@@ -27,8 +27,15 @@ export default function Home() {
 
       <main className={theme === "dark" ? "dark" : "light"}>
         <nav className="gradient w-screen absolute">
-          <div className="container mx-auto text-center">
-            <span>👁️ Open to opportunities from April 2023</span>
+          <div className="container flex place-content-center">
+            <a
+              className="cta"
+              href="mailto:bonjour@quentinmerabet.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              👁️ Open to opportunities from April 2023
+            </a>
           </div>
         </nav>
         <section className="min-h-screen flex items-center">
@@ -333,7 +340,13 @@ export default function Home() {
           </div>
         </section>
         <footer>
-          <a href="#">bonjour@quentinmerabet.com</a>
+          <a
+            href="mailto:bonjour@quentinmerabet.com"
+            target="_blank"
+            rel="noreferrer"
+          >
+            bonjour@quentinmerabet.com
+          </a>
         </footer>
       </main>
     </>
