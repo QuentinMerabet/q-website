@@ -27,7 +27,7 @@ export default function Home() {
 
       <main className={theme === "dark" ? "dark" : "light"}>
         <nav className="gradient w-screen absolute">
-          <div className="container flex place-content-center">
+          <div className="container  mx-auto flex place-content-center">
             <a
               className="cta"
               href="mailto:bonjour@quentinmerabet.com"
