@@ -92,6 +92,24 @@ a:hover {
   opacity: 0.6;
 }
 
+.project a:after {
+  content: "--";
+  color: transparent;
+  display: inline-block;
+  margin-left: 0.5em;
+  background: url("/images/ico-link.svg") center left no-repeat;
+  mix-blend-mode: difference;
+  transition: 150ms all;
+}
+
+.project a:hover {
+  opacity: 1;
+}
+
+.project a:hover:after {
+  margin-left: 0.6em;
+}
+
 strong {
   font-weight: 500;
 }
