@@ -189,24 +189,14 @@ export default function Home() {
               <Project title={"The Zerøs"} client={"Personal"}>
                 <p className="mb-3">
                   A 3D experiment in generative art - using terrain generation,
-                  physics, and live sound.
+                  physics, and live sound. Now available as an NFT open edition.
                 </p>
                 <a
-                  href="https://q-playground.vercel.app"
+                  href="https://zeros.quentinmerabet.com"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Try it
-                </a>
-                <a
-                  href={
-                    "https://q-playground.vercel.app/api/metadata/" +
-                    parseInt(10000 * Math.random())
-                  }
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Check metadata API
+                  Visit
                 </a>
               </Project>
               <Project
@@ -242,15 +232,15 @@ export default function Home() {
                   events or mobile app achievements. Experimented with
                   generative art to make every passport unique.
                 </p>
+                <a href="https://soulx.org" target="_blank" rel="noreferrer">
+                  Visit
+                </a>
                 <a
                   href="https://testnets.opensea.io/assets/mumbai/0x50fbdf958ca75781e368e22b7a0a5c9a4b9b467e/7"
                   target="_blank"
                   rel="noreferrer"
                 >
                   View on opensea
-                </a>
-                <a href="https://soulx.org" target="_blank" rel="noreferrer">
-                  Try it
                 </a>
               </Project>
               <Project title={"The Vampires Club"} client={"Code Green"}>
@@ -263,7 +253,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Website
+                  Visit
                 </a>
               </Project>
               <Project title={"ERC-1155PricePerSupply"} client={"Personal"}>
@@ -294,7 +284,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Website
+                  Visit
                 </a>
               </Project>
               <Project title={"Pixshot"} client={"Personal"}>
@@ -320,7 +310,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  BscScan (Binance Smart Chain)
+                  See contract
                 </a>
               </Project>
               <Project title={"Heal Labs"} client={"Heal Labs"}>
