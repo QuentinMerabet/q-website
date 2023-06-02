@@ -40,7 +40,6 @@ export default function Home() {
         </nav>
         <section className="min-h-screen flex items-center">
           <div className="container mx-auto">
-            <Blob theme={theme} toggleTheme={toggleTheme} />
             <h1>
               Bonjour, i’m Quentin Merabet — a French{" "}
               <span className="txtgradient">developer & designer</span> with 12+
