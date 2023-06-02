@@ -23,7 +23,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "three": "^0.150.1",
-    "three-stdlib": "^2.21.8"
+    "three-stdlib": "^2.21.10"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

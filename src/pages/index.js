@@ -199,6 +199,15 @@ export default function Home() {
                   Visit
                 </a>
               </Project>
+              <Project title={"Haiku.at"} client={"Personal"}>
+                <p className="mb-3">
+                  Drop a word and generate a collective haiku with the magic of
+                  ChatGPT.
+                </p>
+                <a href="https://haiku.at" target="_blank" rel="noreferrer">
+                  Visit
+                </a>
+              </Project>
               <Project
                 title={"Carbon Calculator"}
                 client={"Code Green + World Of Women"}

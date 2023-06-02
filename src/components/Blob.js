@@ -32,7 +32,7 @@ export default function Blob(props) {
     return (
       <>
         <ambientLight intensity={0.3} />
-        <Environment preset="warehouse" />
+        <Environment preset="sunset" />
         <spotLight
           position={[2, 2, 4]}
           angle={2}
